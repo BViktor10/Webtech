@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>RAM beadandó</title>
+        <META http-equiv="Content-Language" content="hu">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <META name="author" content="Berki Viktor">
+        <META name="description" content="RAM, Technológia, Memória">
+        <META name="keywords" content="RAM, SDRAM, DDR, Data bus">
+        <META name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body class='hatterszin'>
+		<div>
+			<p> Az alábbi kérdésekre kérem válaszoljon! </p>
+			<input type="checkbox" id="myCheckbox" name="myCheckbox">
+			<label for="myCheckbox">Elfogadom</label><p id="teszt"></p> <br>
+			
+			
+			<input type="radio" id="opcio1" name="valasztas" value="opcio1" checked>
+			<label for="opcio1">Opció 1</label><br>
+			<input type="radio" id="opcio2" name="valasztas" value="opcio2" checked>
+			<label for="opcio2">Opció 2</label><br>
+			<input type="radio" id="opcio3" name="valasztas" value="opcio3" checked>
+			<label for="opcio3">Opció 3</label><br>
+			
+			<p>Kérem adja meg, hogy milyen színbe szeretné látni ezt a weblapot.</p>
+			<input type="color" name="szinelem" value="#ff0000" onchange="ellenorzes2(this.value)"><br><br>
+			<input type="date" id="dateInput" list="dates">
+			<datalist id="dates"/>
+		</div>
+		<div>
+		<br>
+		<input type="button" value="Következő oldal" onclick="window.location.href='harmadik.html'" class="gomb">
+		<input type="button" value="Előző oldal" onclick="window.location.href='index.html'" class="gomb">
+		</div>
+		<script src="script.js"></script>
+    </body>
+</html>

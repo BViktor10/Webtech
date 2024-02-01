@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>RAM beadandó</title>
+        <META http-equiv="Content-Language" content="hu">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <META name="author" content="Berki Viktor">
+        <META name="description" content="RAM, Technológia, Memória">
+        <META name="keywords" content="RAM, SDRAM, DDR, Data bus">
+        <META name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body class='hatterszin'>
+        <h1 id="egyescím">RAM</h1>
+        <h2>Mi az a <span style="color:blue">RAM</span>?</h2>
+        <div>
+            A RAM teljes néven Random Access Memory, egy olyan adat tároló típus, amely csak míg áram alatt van tud adatot tárolni.<br>
+            RAM az data bus-on keresztül kommunkiál a CPU egységgel.<br>
+            A fő feladata, hogy a CPU utasításait és egyébb fontosabb adatot eltároljon egy ideiglenes ideig.<br>
+            Sebbeségügekt az órajel határoza meg, viszont mert lassú ezért a CPU-nak van saját memóriája, amit cache-nek hívunk.<br>
+            A régi RAM-ok aszinkronok voltak, nem volt órajelük, sebességüket csak az elérési idő határozta meg.<br>
+            A RAM egy bájtnyi információt tároló részét memóriarekesznek nevezzük.<br>
+            A memóriarekeszek sorszámát címnek nevezzük, a CPU ennek alapján találja meg a keresett információt a RAM-ban.<br>
+            A memóriákban lévő cellák (memóriarekeszek) a négyzetrács pontjaiként helyezkednek el, így az adatok lekéréséhez tudni kell a sorok és az oszlopok számát.<br>
+            Az alapot képező NYÁK-lapon több memóriachip is található, és ezekben a chipekben vannak a számítógép által értelmezhető 0 és 1 töltési értéket tároló apró cellák.<br>
+        </div>
+        <h2 style="font-family:Courier New">A RAM története</h2>
+        <div style="font-family:Courier New">
+            <ol>
+                <li><b>1952</b> Ferritgyűrűs memória </li>
+                <li><b>1968</b> Intel létre jötte</li>
+                <li><b>1969</b> Intel 3 db új memória (<u><b><i>3101:</i></b></u>64 bites statikus RAM, <u><b><i>3301:</i></b></u>1024 bites ROM, <u><b><i>1101:</i></b></u>64 bites MOSFET RAM)</li>
+                <li><b>1972</b> 1103 megjelenése, <u><b>első Dinamikus RAM</b></u> 1kb kapacitás</li>
+            </ol>
+            <img src="1103.jpg" alt="1103 RAM" width="100" height="100" style="float:right">
+            <a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank"> <img src="intel.jpg" alt="Intel 1968-as logoja" width="100" height="100" style="float:right"></a>
+            <a href="https://hu.wikipedia.org/wiki/Ferritgy%C5%B1r%C5%B1s_mem%C3%B3ria" target="_blank"> <img src="ferrit.jpg" alt="Ferrit memória" width="100" height="100" style="float:right"></a>
+        </div>
+        <h2>RAM típusok</h2>
+        <div>
+            <b>SRAM:</b>Static Random Access Memory, minden memóriacellát egy kétállapotú tároló alkot, amelyet több tranzisztor (általában 4 vagy 6 db) alkot.<br>
+            <b>DRAM:</b>Dynamic Random Access Memory, egy memória cellát egy kondenzátor és egy tranzisztor épít fel. Az információt addig tárolja, amíg a kondenzátor ki nem sül.
+        </div>
+        <h2 style="text-align:center">Híres RAM gyártó cégek</h2>
+        <div>
+            <table>
+                <tr>
+                    <th>Gyártó</th>
+                    <th>Alapítás</th>
+                    <th>Weboldal</th>
+                </tr>
+                <tr>
+                    <td>Kingston Technology</td>
+                    <td>1987</td>
+                    <td><a href="https://www.kingston.com/en" target="_blank"> Kingston weboldal</a> </td>
+                </tr>
+                <tr>
+                    <td>Samsung</td>
+                    <td>1938</td>
+                    <td><a href="https://www.samsung.com/semiconductor/dram/" target="_blank"> Samsung weboldal</a></td>
+                </tr>
+                <tr>
+                    <td>Patriot Memory</td>
+                    <td>1985</td>
+                    <td><a href="https://www.patriotmemory.com/" target="_blank"> Patriot Memory weboldal</a> </td>
+                </tr>
+                <tr>
+                    <td>G.Skill</td>
+                    <td>1989</td>
+                    <td><a href="http://www.gskill.com/" target="_blank">G.Skill weboldala</a> </td>
+                </tr>
+                <tr>
+                    <td>Kingmax</td>
+                    <td>1989</td>
+                    <td><a href="http://www.kingmax.com/en-global/Home/index" target="_blank">Kingmax weboldala</a> </td>
+                </tr>
+            </table>
+            <br>
+            <b>Források:</b><br>
+            <a href="https://hu.wikipedia.org/wiki/RAM" target="_blank">Wikipédia</a><br>
+            <a href="https://logout.hu/bejegyzes/frescho/memoria_tortenelem.html" target="_blank">LOGOUT.hu Frescho bejegyzése</a>
+        </div>
+		<div>
+		<input type="button" value="Következő oldal" onclick="window.location.href='masodik.html'" class="gomb">
+		</div>
+		<script src="script.js"></script>
+    </body>
+</html>
